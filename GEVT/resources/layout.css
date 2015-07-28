@@ -1,0 +1,187 @@
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700);
+html, body {
+	height: 100%;
+	overflow: auto;
+	background: #F7F7F7; 
+
+}
+
+.header{
+	height: 8%;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	background: #0095b6;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    width: 100px;
+    background-color: #dddddd;
+}
+.footer{
+	height: 5%;
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+	background: #0095b6;
+}
+
+.mainBody{
+	position: absolute;
+	top: 8%;
+	bottom: 7%;
+	width: 100%;
+}
+
+.mainContainer{
+	height: 95%;
+	border-style: groove;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.latlongDisplay{
+	height: 6.85%;
+	background: #dddddd/* #AAA7B5 */;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#mouse-position{}
+
+.mapControls{
+	height: 100%;
+	background-color: white;
+	float:right;
+	width:30%;
+	overflow: auto;
+}
+
+.map1 {
+	height: 100%;
+	width:69.9%;
+	float:left;
+	background: url(textured_paper.jpeg) repeat;	
+}
+#tabs-1{
+	width:100%;
+	padding:0;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+}
+
+.clonedInput{
+}
+
+.latlong{
+}
+
+.category{
+}
+
+.eventName{
+}
+
+.duration{
+}
+
+/* .clonedInput + .clonedInput {
+	border-top: 2px solid #2a2a2a;
+	padding-top:20px;
+}
+
+form {
+	margin:0;
+}
+
+#addDelButtons {
+	margin:5px 0 20px 20%;
+}
+
+#btnAdd,#btnDel {
+	color:#fff;
+	padding:3px 18px 5px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	-moz-box-shadow:0 1px 2px rgba(000,000,000,0.5),inset 0 0 0 rgba(255,255,255,0.9);
+	-webkit-box-shadow:0 1px 2px rgba(000,000,000,0.5),inset 0 0 0 rgba(255,255,255,0.9);
+	box-shadow:0 1px 2px rgba(000,000,000,0.5),inset 0 0 0 rgba(255,255,255,0.9);
+}
+
+#btnAdd {
+	background:-moz-linear-gradient(top,#4281ff 0%,#004266);
+	background:-webkit-gradient(linear,left top,left bottom,from(#4281ff),to(#004266));
+	border:1px solid #1c4373;
+	filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4281ff', endColorstr='#004266'); IE6 & IE7
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4281ff', endColorstr='#004266')"; IE8
+}
+
+#btnDel {
+	background:-moz-linear-gradient(top,#f04856 0%,#600);
+	background:-webkit-gradient(linear,left top,left bottom,from(#f04856),to(#600));
+	border:1px solid #731c20;
+	filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#f04856', endColorstr='#600'); IE6 & IE7
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#f04856', endColorstr='#600')"; IE8
+}
+
+button[disabled], input[disabled] {background:#d8dadd !important; color: #83868a !important;
+	border:1px solid #b5b7bb !important; -moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+#btnDel:hover {
+	background:#600;
+	box-shadow: none;
+} */
+
+.map1:-moz-full-screen {	 /*for map in full screen */
+	height: 100%;
+	width: 100%;
+}
+.map1:-webkit-full-screen {
+	height: 100%;
+	width: 100%;
+}
+.map1:-ms-fullscreen {
+	height: 100%;
+	width: 100%;
+}
+.map1:full-screen {
+	height: 100%;
+	width: 100%;
+}
+
+.ol-attribution {
+max-width: calc(100% - 3em);
+}
+.ol-control button, .ol-attribution, .ol-scale-line-inner {
+font-family: 'Lucida Grande',Verdana,Geneva,Lucida,Arial,Helvetica,sans-serif;
+}
+#tags {
+display: none;
+}
+body, h1, h2, h3, h4, p, li, td, th {
+font-family: Quattrocento Sans;
+}
+.navbar-inverse .navbar-inner {
+background: #0095b6;
+}
+.navbar-inverse .brand {
+color: white;
+}

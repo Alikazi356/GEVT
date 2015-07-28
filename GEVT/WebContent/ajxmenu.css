@@ -1,0 +1,13 @@
+@charset "utf-8";
+/*
+ Ajatix Advanced CSS Drop Down Menu Light
+ Copyright (C) 2009-2015 Ajatix. All rights reserved.
+ http://www.ajatix.com
+*/
+.AJXCSSMenuDAVHOUD {position:relative;z-index:100;min-width:588px;line-height:0;border:1px solid #999999;background:#ffffff url(ajxmenu_files/menu-bg.gif) top center;text-align:center;}
+.AJXCSSMenuDAVHOUD ul {position:relative;display:inline-block;margin:0;padding:0px 0px 0px 0px;list-style-type:none;}
+*+html .AJXCSSMenuDAVHOUD ul {display:inline;}
+.AJXCSSMenuDAVHOUD li {float:left;margin:0;}
+.AJXCSSMenuDAVHOUD a,.AJXCSSMenuDAVHOUD_n a {display:block;overflow:hidden;}
+.AJXCSSMenuDAVHOUD>ul>li>a {width:auto;height:30px;white-space:nowrap;padding:0 11px 0 11px;font:11px Verdana,Arial,Helvetica,sans-serif;line-height:30px;text-decoration:none;text-transform:none;text-align:left;border:0;color:#777777;background:none;}
+.AJXCSSMenuDAVHOUD>ul>li:hover>a,.AJXCSSMenuDAVHOUD>ul>li.ajxover>a {color:#ffffff;background:#999999;}

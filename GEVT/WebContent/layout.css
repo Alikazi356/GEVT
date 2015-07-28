@@ -1,0 +1,160 @@
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700);
+html, body {
+	height: 100%;
+	overflow: auto;
+	background: #F7F7F7; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    width: 100px;
+    background-color: #dddddd;
+}
+
+.header{
+	height: 8%;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	background: #0095b6;
+}
+
+.footer{
+	height: 5%;
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+	background: #0095b6;
+}
+
+.mainBody{
+	position: absolute;
+	top: 8%;
+	bottom: 5%;
+	width: 100%;
+}
+
+.mainContainer{
+	height: 100%;
+	width:69.9%;
+	float:left;
+	border-style: groove;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#mouse-position{}
+
+.mapControls{
+	height: 100%;
+	background-color: white;
+	float:right;
+	width:29.99%;
+	overflow: auto;
+}
+
+.map1 {
+	height: 93%;
+	top:0;
+	background: url(textured_paper.jpeg) repeat;	
+}
+
+.latlongDisplay{
+	height: 7%;
+	bottom:0;
+	background: #dddddd/* #AAA7B5 */;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#tabs-1{
+	width:100%;
+	padding:0;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+}
+
+.displaySearchControls{
+	height:60%;
+	top:0;
+	background-color:red;
+}
+
+.displayButtonControls{
+	height:20%;
+	bottom:0;
+	background-color:green;
+}
+
+.displaySearchStatus{
+	height:20%;
+	bottom:0;
+	background-color:blue;
+}
+
+.clonedInput{
+}
+
+.latlong{
+}
+
+.category{
+}
+
+.eventName{
+}
+
+.duration{
+}
+
+.notIn{
+	
+}
+
+.map1:-moz-full-screen {	 /*for map in full screen */
+	height: 100%;
+	width: 100%;
+}
+.map1:-webkit-full-screen {
+	height: 100%;
+	width: 100%;
+}
+.map1:-ms-fullscreen {
+	height: 100%;
+	width: 100%;
+}
+.map1:full-screen {
+	height: 100%;
+	width: 100%;
+}
+
+.ol-attribution {
+max-width: calc(100% - 3em);
+}
+.ol-control button, .ol-attribution, .ol-scale-line-inner {
+font-family: 'Lucida Grande',Verdana,Geneva,Lucida,Arial,Helvetica,sans-serif;
+}
+#tags {
+display: none;
+}
+body, h1, h2, h3, h4, p, li, td, th {
+font-family: Quattrocento Sans;
+}
+.navbar-inverse .navbar-inner {
+background: #0095b6;
+}
+.navbar-inverse .brand {
+color: white;
+}
